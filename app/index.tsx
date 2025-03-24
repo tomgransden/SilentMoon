@@ -42,7 +42,7 @@ export default function WelcomeScreen() {
         <Text style={styles.title}>{strings.title}</Text>
         <Text style={styles.subtitle}>{strings.subtitle}</Text>
         <View style={styles.button}>
-          <Link href={"/topics"}>
+          <Link href={"/create-account"}>
             <Text style={styles.buttonText}>{strings.cta}</Text>
           </Link>
         </View>
